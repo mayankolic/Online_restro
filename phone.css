@@ -1,0 +1,48 @@
+/* navigation */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+/* home-section */
+
+#home {
+    height: 400px;
+    flex-direction: column;
+}
+
+#home::before {
+    height: 450px;
+}
+
+#home p {
+    font-size: 13px;
+}
+
+
+/* services-section */
+
+#services {
+    flex-direction: column;
+}
+
+#services .box {}
+
+
+/* clients-secion */
+
+#clients {}
+
+
+/* contact-us */
+
+
+/* utility class */
+
+.h-primary {
+    font-size: 29px;
+}
